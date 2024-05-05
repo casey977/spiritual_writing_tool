@@ -1,0 +1,9 @@
+.word {
+    text-align: center;
+    font-size: 24pt;
+    border-top: 50pt;
+}
+
+#written {
+    font-size: 14pt;
+}
