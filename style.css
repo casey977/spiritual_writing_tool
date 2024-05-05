@@ -1,7 +1,10 @@
-.word {
-    text-align: center;
+#word {
     font-size: 24pt;
     border-top: 50pt;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #written {

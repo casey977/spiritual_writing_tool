@@ -21,6 +21,7 @@ document.addEventListener("keydown", function (event) {
 			}
 			element.innerHTML += key_name;
 		} else if (key_name === 'End') {
+			writing = false;
 			let date_now = new Date();
 			words.push(element.innerHTML);
 			word_count += 1;
@@ -29,7 +30,6 @@ document.addEventListener("keydown", function (event) {
 			words.forEach(word => {
 				written.innerHTML += word + ' ';
 			});
-			writing = false;
 		} else if (key_name === 'Backspace') {
 			let line = element.innerHTML;
 			element.innerHTML = line.slice(0, -1);
